@@ -1,0 +1,37 @@
+{
+	"name": "plv-api-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "webpack --watch",
+		"devStart": "npx nodemon dist/server.js",
+		"start": "node dist/server.js",
+		"serve": "webpack serve --open",
+		"build": "webpack",
+		"build:production": "webpack --config webpack.config.prod.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nekione/PLV-API-Server.git"
+	},
+	"author": "Aman Singh",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nekione/PLV-API-Server/issues"
+	},
+	"homepage": "https://github.com/nekione/PLV-API-Server#readme",
+	"devDependencies": {
+		"@types/lodash": "^4.14.182",
+		"nodemon": "^2.0.19",
+		"ts-loader": "^9.3.1",
+		"typescript": "^4.7.4",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.9.3"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	}
+}
