@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist/",
-     "sourceMap": true,
-      "noImplicitAny": true,
-      "module": "commonjs",
-      "target": "ESNext",
-      "allowJs": true,
-      "moduleResolution": "node"
-    },
-    "exclude": ["./graphql.config.ts"]
-  }
+  "compilerOptions": {
+    "outDir": "./dist/",
+   "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["./graphql.config.ts"]
+}
