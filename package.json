@@ -16,14 +16,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nekione/PLV-API-Server.git"
+		"url": "git+https://github.com/amansinghtech/Typescript-Template.git"
 	},
 	"author": "Aman Singh",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/nekione/PLV-API-Server/issues"
+		"url": "https://github.com/amansinghtech/Typescript-Template/issues"
 	},
-	"homepage": "https://github.com/nekione/PLV-API-Server#readme",
+	"homepage": "https://github.com/amansinghtech/Typescript-Template#readme",
 	"devDependencies": {
 		"@types/lodash": "^4.14.202",
 		"clean-webpack-plugin": "^4.0.0",
